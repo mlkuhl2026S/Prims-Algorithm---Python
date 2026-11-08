@@ -1,5 +1,6 @@
 import csv
 
+
 with open('graphtest1.txt', 'r') as csv_file:
     file_handle = csv.reader(csv_file)
     data = next(file_handle)
